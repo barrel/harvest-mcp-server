@@ -14,7 +14,7 @@ The server provides the following functionality:
 - Get user details
 
 ### Time Entries
-- List time entries with filtering options
+- List time entries with filtering options (by user, project, date range, running/billable status)
 - Create new time entries
 - Start/stop timers
 - Query time entry details
@@ -85,6 +85,7 @@ The server provides the following functionality:
 Once connected, you can ask Claude about your Harvest data with queries like:
 
 - "Show me my time entries from last week"
+- "Show me time entries for project [project_id]"
 - "List all my active projects"
 - "Start a timer for project [project_id] and task [task_id]"
 - "Show me all active clients"
